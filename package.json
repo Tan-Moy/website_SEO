@@ -4,11 +4,15 @@
   "description": "A website for practising SEO",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon lib/index.js"
   },
   "author": "Tan",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^2.6.1",
     "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
   }
 }
